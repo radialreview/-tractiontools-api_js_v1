@@ -1,11 +1,11 @@
 {
-  "name": "@tractiontools/api_js_v1",
+  "name": "@tractiontools/rest-apis",
   "version": "1.0.0",
-  "description": "ERROR_UNKNOWN",
+  "description": "TractionTools WebApi",
   "license": "Unlicense",
   "main": "src/index.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha --recursive"
+    "test": "node .\\node_modules\\mocha\\bin\\mocha --recursive"
   },
   "browser": {
     "fs": false

@@ -638,7 +638,7 @@
       var formParams = {
       };
 
-      var authNames = [];
+      var authNames = ['oauth2'];
       var contentTypes = [];
       var accepts = ['application/json', 'text/json'];
       var returnType = [NameId];

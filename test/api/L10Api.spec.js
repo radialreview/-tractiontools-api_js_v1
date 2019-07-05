@@ -163,11 +163,18 @@
     describe('l10GetL10List', function() {
       it('should call l10GetL10List successfully', function(done) {
         //uncomment below and update the code to test l10GetL10List
-        //instance.l10GetL10List(function(error) {
-        //  if (error) throw error;
-        //expect().to.be();
-        //});
-        done();
+        //instance.defaultHeaders.Authorization = token;
+        instance.l10GetL10List(function(error, data) {
+          if (error) throw error;
+
+          expect(data).to.be.an('array');
+          // var firstData = data[0];
+          // expect(firstData).to.not.be(null);
+          // expect(firstData.Name).to.be('Test');
+
+          done();
+        });
+        
       });
     });
     describe('l10GetL10Rocks', function() {

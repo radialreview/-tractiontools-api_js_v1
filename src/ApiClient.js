@@ -55,7 +55,8 @@
      * @type {Array.<String>}
      */
     this.authentications = {
-      'basic': {type: 'basic'}
+      'basic': {type: 'basic'},
+      'oauth2': { type: 'oauth2', accessToken: '1MY2CveUT2Tfp5gOSRh2jBuAWekgtsc2sSh57XPQ5XUMuKZjkMU7XMh3LDgHjYhMNG0JjA8e_PeYGH0Lzd5WxGW5MKWJ8DoJo9Ies4R-XLkdMvuGsKGc9l0nJwleLFwtQCM8NsWg_CKMOn3LxJGd3ZVtkefAuAcRGF2RWO0O9QE1OZOs0rK5gaes0GNHEHVeSNizQ9D9xOS-Cn2N_9mtekD1ZfuxMOqNwwfMMeOPzVLFHxYq0-9B6OE1bn_bBmvpi-c1Tn4DdMBigg8g89dl5rTQf3FG0MJ5DwCXHnpWhcOlVLpcidcL_JQpnt_PCkvfUFeeNC21O5X2cLRWzfZWU9A5_h7X0ZHZgTZx_Q9knjjk8W-XQvIoECic0H2Ogq6m-_I-ETceC3RM4CYgvwntgwPzCvVRUj0VISbQ5FfyUfSwE71nQN4MUhgzZkvOW_pEP0DpAHooRCgpTz3ClrZBp7d0M_Uxc8dRD1i9IEcWQSh-GLk3_PADHhw8kVo60hFt' }
     };
     /**
      * The default HTTP headers to be included for all API calls.
